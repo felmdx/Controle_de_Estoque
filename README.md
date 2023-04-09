@@ -2,10 +2,11 @@
 
 # Objetivo
 
-Criação de um controle de estoque para comércio ou negócio pequeno utilizando bibliotecas python para conectar a aplicação à um banco de dados SQL.
+Criação de um controle de estoque para comércio ou negócio pequeno com o intuito de facilitar a organização e melhorar a transparência das compras utilizando bibliotecas python para conectar a aplicação à um banco de dados SQL.
 
 # Descrição
 
+O projeto possui uma tela para registro dos produtos, onde estes podem ser registrados com o nome do produto, a quantidade, o código, o preço e a categoria em que este se encaixa. A segunda tela apresenta os itens no banco de dados em tabela, com as opções de gerar um PDF e de excluir um produto.
 Para a criação do banco de dados foi utilizando o Wamp Server, tal qual é integrado ao Python através da biblioteca mysql connector. Foi utilizado o módulo PyQt5 e as bibliotecas QtWidgets e uic para integrar as interfaces desenvolvidas no QtDesigner, além da biblioteca Canvas para a geração do PDF com os dados do banco.
 
 # Imagens do funcionamento
